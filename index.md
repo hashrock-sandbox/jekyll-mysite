@@ -3,7 +3,7 @@ title: Introduction
 layout: posts
 ---
 
-ようこそホームページへ
+Jekyllで作成したサンプルページです。
 
 サンプルコードを書いてみます。
 
