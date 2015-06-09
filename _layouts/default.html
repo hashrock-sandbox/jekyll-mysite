@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }} - Example Site</title>
+        <link rel="stylesheet" href="https://cdn.rawgit.com/mblode/marx/master/css/marx.min.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <nav class="top">
+            {% include menu.html %}
+        </nav>
+
+        <main>
+            <section>
+              {{ content }}
+            </section>
+            <footer>
+              <p>&copy Sushicorp</p>
+            </footer>
+        </main>        
+        
+    </body>
+</html>
